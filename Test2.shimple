@@ -1,0 +1,224 @@
+public class Test2 extends java.lang.Object
+{
+/*Test2.java*/
+    public static final boolean $assertionsDisabled;
+    public static java.lang.Class class$Test2;
+
+/*2*/
+    static void <clinit>()
+    {
+        java.lang.Class temp$0, temp$1, temp$2, temp$0_1, temp$0_2;
+        boolean temp$3, temp$4, temp$4_1, temp$4_2;
+
+        temp$1 = <Test2: java.lang.Class class$Test2>;
+/*3*/
+
+        if temp$1 != null goto label1;
+/*3*/
+
+        temp$2 = staticinvoke <Test2: java.lang.Class class$(java.lang.String)>("Test2");
+/*3*/
+
+        <Test2: java.lang.Class class$Test2> = temp$2;
+/*3*/
+
+        temp$0 = temp$2;
+/*3*/
+
+(0)     goto label2;
+/*3*/
+
+     label1:
+        nop;
+/*3*/
+
+(1)     temp$0_1 = <Test2: java.lang.Class class$Test2>;
+/*3*/
+
+     label2:
+        temp$0_2 = Phi(temp$0 #0, temp$0_1 #1);
+
+        nop;
+/*3*/
+
+        temp$3 = virtualinvoke temp$0_2.<java.lang.Class: boolean desiredAssertionStatus()>();
+/*3*/
+
+        if temp$3 == 0 goto label4;
+/*3*/
+
+        goto label3;
+/*3*/
+
+     label3:
+        nop;
+/*3*/
+
+        temp$4 = 0;
+/*3*/
+
+(2)     goto label5;
+/*3*/
+
+     label4:
+        nop;
+/*3*/
+
+(3)     temp$4_1 = 1;
+/*3*/
+
+     label5:
+        temp$4_2 = Phi(temp$4 #2, temp$4_1 #3);
+
+        nop;
+/*3*/
+
+        <Test2: boolean $assertionsDisabled> = temp$4_2;
+/*3*/
+
+        return;
+/*3*/
+    }
+
+/*[x, y]*/
+    public void testMe(int, int)
+    {
+        Test2 this;
+        int x, y, t1, temp$0, tmp, t2, temp$1, x_1, y_1;
+        boolean temp$2;
+        java.lang.AssertionError temp$3;
+
+        this := @this: Test2;
+/*Source Line Pos Tag: sline: 4 eline: 11 spos: 2 epos: 2 file: Test2.java*/
+
+        x := @parameter0: int;
+/*Source Line Pos Tag: sline: 4 eline: 4 spos: 21 epos: 25 file: Test2.java*/
+
+        y := @parameter1: int;
+/*Source Line Pos Tag: sline: 4 eline: 4 spos: 28 epos: 32 file: Test2.java*/
+
+        temp$0 = x;
+/*Source Line Pos Tag: sline: 5 eline: 5 spos: 3 epos: 17 file: Test2.java*/
+
+        t1 = temp$0 + y;
+/*Source Line Pos Tag: sline: 5 eline: 5 spos: 3 epos: 17 file: Test2.java*/
+
+        tmp = x;
+/*Source Line Pos Tag: sline: 6 eline: 6 spos: 3 epos: 14 file: Test2.java*/
+
+        x_1 = y;
+/*Source Line Pos Tag: sline: 7 eline: 7 spos: 3 epos: 3 file: Test2.java*/
+
+        y_1 = tmp;
+/*Source Line Pos Tag: sline: 8 eline: 8 spos: 3 epos: 3 file: Test2.java*/
+
+        temp$1 = x_1;
+/*Source Line Pos Tag: sline: 9 eline: 9 spos: 3 epos: 17 file: Test2.java*/
+
+        t2 = temp$1 + y_1;
+/*Source Line Pos Tag: sline: 9 eline: 9 spos: 3 epos: 17 file: Test2.java*/
+
+        temp$2 = <Test2: boolean $assertionsDisabled>;
+/*5*/
+
+        if temp$2 == 0 goto label1;
+/*5*/
+
+        goto label3;
+/*5*/
+
+     label1:
+        nop;
+/*5*/
+
+        if t1 > t2 goto label3;
+/*Source Line Pos Tag: sline: 10 eline: 10 spos: 10 epos: 16 file: Test2.java*/
+
+        goto label2;
+/*Source Line Pos Tag: sline: 10 eline: 10 spos: 10 epos: 16 file: Test2.java*/
+
+     label2:
+        nop;
+/*Source Line Pos Tag: sline: 10 eline: 10 spos: 10 epos: 16 file: Test2.java*/
+
+        temp$3 = new java.lang.AssertionError;
+/*5*/
+
+        specialinvoke temp$3.<java.lang.AssertionError: void <init>()>();
+/*5*/
+
+        throw temp$3;
+/*5*/
+
+     label3:
+        nop;
+/*5*/
+
+        return;
+/*5*/
+    }
+
+/*[]*/
+/*2*/
+    public void <init>()
+    {
+        Test2 this;
+
+        this := @this: Test2;
+/*3*/
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+/*3*/
+
+        return;
+/*3*/
+    }
+
+/*[name]*/
+/*2*/
+    public static java.lang.Class class$(java.lang.String)
+    {
+        java.lang.String name, temp$2;
+        java.lang.Class temp$0;
+        java.lang.ClassNotFoundException e;
+        java.lang.NoClassDefFoundError temp$1;
+
+        name := @parameter0: java.lang.String;
+/*3*/
+
+     label1:
+        nop;
+/*3*/
+
+        temp$0 = staticinvoke <java.lang.Class: java.lang.Class forName(java.lang.String)>(name);
+/*3*/
+
+     label2:
+        nop;
+/*3*/
+
+        return temp$0;
+/*3*/
+
+     label3:
+        nop;
+/*3*/
+
+        e := @caughtexception;
+/*3*/
+
+        temp$1 = new java.lang.NoClassDefFoundError;
+/*3*/
+
+        temp$2 = virtualinvoke e.<java.lang.ClassNotFoundException: java.lang.String getMessage()>();
+/*3*/
+
+        specialinvoke temp$1.<java.lang.NoClassDefFoundError: void <init>(java.lang.String)>(temp$2);
+/*3*/
+
+        throw temp$1;
+/*3*/
+
+        catch java.lang.ClassNotFoundException from label1 to label2 with label3;
+    }
+}

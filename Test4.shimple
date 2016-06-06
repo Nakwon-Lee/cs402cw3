@@ -1,0 +1,377 @@
+public class Test4 extends java.lang.Object
+{
+/*Test4.java*/
+    public static final boolean $assertionsDisabled;
+    public static java.lang.Class class$Test4;
+
+/*2*/
+    static void <clinit>()
+    {
+        java.lang.Class temp$0, temp$1, temp$2, temp$0_1, temp$0_2;
+        boolean temp$3, temp$4, temp$4_1, temp$4_2;
+
+        temp$1 = <Test4: java.lang.Class class$Test4>;
+/*3*/
+
+        if temp$1 != null goto label1;
+/*3*/
+
+        temp$2 = staticinvoke <Test4: java.lang.Class class$(java.lang.String)>("Test4");
+/*3*/
+
+        <Test4: java.lang.Class class$Test4> = temp$2;
+/*3*/
+
+        temp$0 = temp$2;
+/*3*/
+
+(0)     goto label2;
+/*3*/
+
+     label1:
+        nop;
+/*3*/
+
+(1)     temp$0_1 = <Test4: java.lang.Class class$Test4>;
+/*3*/
+
+     label2:
+        temp$0_2 = Phi(temp$0 #0, temp$0_1 #1);
+
+        nop;
+/*3*/
+
+        temp$3 = virtualinvoke temp$0_2.<java.lang.Class: boolean desiredAssertionStatus()>();
+/*3*/
+
+        if temp$3 == 0 goto label4;
+/*3*/
+
+        goto label3;
+/*3*/
+
+     label3:
+        nop;
+/*3*/
+
+        temp$4 = 0;
+/*3*/
+
+(2)     goto label5;
+/*3*/
+
+     label4:
+        nop;
+/*3*/
+
+(3)     temp$4_1 = 1;
+/*3*/
+
+     label5:
+        temp$4_2 = Phi(temp$4 #2, temp$4_1 #3);
+
+        nop;
+/*3*/
+
+        <Test4: boolean $assertionsDisabled> = temp$4_2;
+/*3*/
+
+        return;
+/*3*/
+    }
+
+/*[x, y, z]*/
+    public void testMe(int, int, int)
+    {
+        Test4 this;
+        int x, y, z, t, temp$0, temp$1, temp$2, temp$3, temp$4, temp$5, temp$6, temp$7, temp$8, t_1, t_2, t_3, t_4, t_5, t_6;
+        boolean temp$9;
+        java.lang.AssertionError temp$10;
+
+        this := @this: Test4;
+/*Source Line Pos Tag: sline: 4 eline: 15 spos: 2 epos: 2 file: Test4.java*/
+
+        x := @parameter0: int;
+/*Source Line Pos Tag: sline: 4 eline: 4 spos: 21 epos: 25 file: Test4.java*/
+
+        y := @parameter1: int;
+/*Source Line Pos Tag: sline: 4 eline: 4 spos: 28 epos: 32 file: Test4.java*/
+
+        z := @parameter2: int;
+/*Source Line Pos Tag: sline: 4 eline: 4 spos: 35 epos: 39 file: Test4.java*/
+
+        t = 0;
+/*Source Line Pos Tag: sline: 5 eline: 5 spos: 3 epos: 12 file: Test4.java*/
+
+        temp$0 = x;
+/*Source Line Pos Tag: sline: 6 eline: 6 spos: 6 epos: 15 file: Test4.java*/
+
+        temp$1 = temp$0 + y;
+/*Source Line Pos Tag: sline: 6 eline: 6 spos: 6 epos: 15 file: Test4.java*/
+
+        if temp$1 <= z goto label03;
+/*Source Line Pos Tag: sline: 6 eline: 6 spos: 6 epos: 15 file: Test4.java*/
+
+        goto label01;
+/*Source Line Pos Tag: sline: 6 eline: 6 spos: 6 epos: 15 file: Test4.java*/
+
+     label01:
+        nop;
+/*Source Line Pos Tag: sline: 6 eline: 6 spos: 6 epos: 15 file: Test4.java*/
+
+        temp$2 = y;
+/*Source Line Pos Tag: sline: 6 eline: 6 spos: 20 epos: 29 file: Test4.java*/
+
+        temp$3 = temp$2 + z;
+/*Source Line Pos Tag: sline: 6 eline: 6 spos: 20 epos: 29 file: Test4.java*/
+
+        if temp$3 <= x goto label03;
+/*Source Line Pos Tag: sline: 6 eline: 6 spos: 20 epos: 29 file: Test4.java*/
+
+        goto label02;
+/*Source Line Pos Tag: sline: 6 eline: 6 spos: 20 epos: 29 file: Test4.java*/
+
+     label02:
+        nop;
+/*Source Line Pos Tag: sline: 6 eline: 6 spos: 20 epos: 29 file: Test4.java*/
+
+        temp$4 = z;
+/*Source Line Pos Tag: sline: 6 eline: 6 spos: 34 epos: 43 file: Test4.java*/
+
+        temp$5 = temp$4 + x;
+/*Source Line Pos Tag: sline: 6 eline: 6 spos: 34 epos: 43 file: Test4.java*/
+
+        if temp$5 <= y goto label03;
+/*Source Line Pos Tag: sline: 6 eline: 6 spos: 34 epos: 43 file: Test4.java*/
+
+        goto label04;
+/*Source Line Pos Tag: sline: 6 eline: 6 spos: 34 epos: 43 file: Test4.java*/
+
+     label03:
+        nop;
+/*Source Line Pos Tag: sline: 6 eline: 6 spos: 34 epos: 43 file: Test4.java*/
+
+        temp$6 = -1;
+/*Source Line Pos Tag: sline: 7 eline: 7 spos: 4 epos: 4 file: Test4.java*/
+
+        t_5 = temp$6;
+/*Source Line Pos Tag: sline: 7 eline: 7 spos: 4 epos: 4 file: Test4.java*/
+
+(0)     goto label13;
+/*Source Line Pos Tag: sline: 6 eline: 13 spos: 3 epos: 3 file: Test4.java*/
+
+     label04:
+        nop;
+/*Source Line Pos Tag: sline: 6 eline: 13 spos: 3 epos: 3 file: Test4.java*/
+
+        if x == y goto label07;
+/*Source Line Pos Tag: sline: 8 eline: 8 spos: 11 epos: 16 file: Test4.java*/
+
+        goto label05;
+/*Source Line Pos Tag: sline: 8 eline: 8 spos: 11 epos: 16 file: Test4.java*/
+
+     label05:
+        nop;
+/*Source Line Pos Tag: sline: 8 eline: 8 spos: 11 epos: 16 file: Test4.java*/
+
+        if y == z goto label07;
+/*Source Line Pos Tag: sline: 8 eline: 8 spos: 21 epos: 26 file: Test4.java*/
+
+        goto label06;
+/*Source Line Pos Tag: sline: 8 eline: 8 spos: 21 epos: 26 file: Test4.java*/
+
+     label06:
+        nop;
+/*Source Line Pos Tag: sline: 8 eline: 8 spos: 21 epos: 26 file: Test4.java*/
+
+        if z == x goto label07;
+/*Source Line Pos Tag: sline: 8 eline: 8 spos: 31 epos: 36 file: Test4.java*/
+
+(1)     goto label12;
+/*Source Line Pos Tag: sline: 8 eline: 8 spos: 31 epos: 36 file: Test4.java*/
+
+     label07:
+        nop;
+/*Source Line Pos Tag: sline: 8 eline: 8 spos: 31 epos: 36 file: Test4.java*/
+
+        if x == y goto label08;
+/*Source Line Pos Tag: sline: 10 eline: 10 spos: 7 epos: 12 file: Test4.java*/
+
+        goto label10;
+/*Source Line Pos Tag: sline: 10 eline: 10 spos: 7 epos: 12 file: Test4.java*/
+
+     label08:
+        nop;
+/*Source Line Pos Tag: sline: 10 eline: 10 spos: 7 epos: 12 file: Test4.java*/
+
+        if y == z goto label09;
+/*Source Line Pos Tag: sline: 10 eline: 10 spos: 17 epos: 22 file: Test4.java*/
+
+        goto label10;
+/*Source Line Pos Tag: sline: 10 eline: 10 spos: 17 epos: 22 file: Test4.java*/
+
+     label09:
+        nop;
+/*Source Line Pos Tag: sline: 10 eline: 10 spos: 17 epos: 22 file: Test4.java*/
+
+        temp$7 = 2;
+/*Source Line Pos Tag: sline: 11 eline: 11 spos: 5 epos: 5 file: Test4.java*/
+
+        t_1 = temp$7;
+/*Source Line Pos Tag: sline: 11 eline: 11 spos: 5 epos: 5 file: Test4.java*/
+
+(2)     goto label11;
+/*Source Line Pos Tag: sline: 10 eline: 12 spos: 4 epos: 14 file: Test4.java*/
+
+     label10:
+        nop;
+/*Source Line Pos Tag: sline: 10 eline: 12 spos: 4 epos: 14 file: Test4.java*/
+
+        temp$8 = 1;
+/*Source Line Pos Tag: sline: 12 eline: 12 spos: 9 epos: 9 file: Test4.java*/
+
+(3)     t_2 = temp$8;
+/*Source Line Pos Tag: sline: 12 eline: 12 spos: 9 epos: 9 file: Test4.java*/
+
+     label11:
+        t_3 = Phi(t_1 #2, t_2 #3);
+
+(4)     nop;
+/*Source Line Pos Tag: sline: 12 eline: 12 spos: 9 epos: 9 file: Test4.java*/
+
+     label12:
+        t_4 = Phi(t #1, t_3 #4);
+
+(5)     nop;
+/*Source Line Pos Tag: sline: 12 eline: 12 spos: 9 epos: 9 file: Test4.java*/
+
+     label13:
+        t_6 = Phi(t_5 #0, t_4 #5);
+
+        nop;
+/*Source Line Pos Tag: sline: 12 eline: 12 spos: 9 epos: 9 file: Test4.java*/
+
+        temp$9 = <Test4: boolean $assertionsDisabled>;
+/*5*/
+
+        if temp$9 == 0 goto label14;
+/*5*/
+
+        goto label18;
+/*5*/
+
+     label14:
+        nop;
+/*5*/
+
+        if t_6 == -1 goto label18;
+/*Source Line Pos Tag: sline: 14 eline: 14 spos: 10 epos: 16 file: Test4.java*/
+
+        goto label15;
+/*Source Line Pos Tag: sline: 14 eline: 14 spos: 10 epos: 16 file: Test4.java*/
+
+     label15:
+        nop;
+/*Source Line Pos Tag: sline: 14 eline: 14 spos: 10 epos: 16 file: Test4.java*/
+
+        if t_6 == 0 goto label18;
+/*Source Line Pos Tag: sline: 14 eline: 14 spos: 21 epos: 26 file: Test4.java*/
+
+        goto label16;
+/*Source Line Pos Tag: sline: 14 eline: 14 spos: 21 epos: 26 file: Test4.java*/
+
+     label16:
+        nop;
+/*Source Line Pos Tag: sline: 14 eline: 14 spos: 21 epos: 26 file: Test4.java*/
+
+        if t_6 == 1 goto label18;
+/*Source Line Pos Tag: sline: 14 eline: 14 spos: 31 epos: 36 file: Test4.java*/
+
+        goto label17;
+/*Source Line Pos Tag: sline: 14 eline: 14 spos: 31 epos: 36 file: Test4.java*/
+
+     label17:
+        nop;
+/*Source Line Pos Tag: sline: 14 eline: 14 spos: 31 epos: 36 file: Test4.java*/
+
+        temp$10 = new java.lang.AssertionError;
+/*5*/
+
+        specialinvoke temp$10.<java.lang.AssertionError: void <init>()>();
+/*5*/
+
+        throw temp$10;
+/*5*/
+
+     label18:
+        nop;
+/*5*/
+
+        return;
+/*5*/
+    }
+
+/*[]*/
+/*2*/
+    public void <init>()
+    {
+        Test4 this;
+
+        this := @this: Test4;
+/*3*/
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+/*3*/
+
+        return;
+/*3*/
+    }
+
+/*[name]*/
+/*2*/
+    public static java.lang.Class class$(java.lang.String)
+    {
+        java.lang.String name, temp$2;
+        java.lang.Class temp$0;
+        java.lang.ClassNotFoundException e;
+        java.lang.NoClassDefFoundError temp$1;
+
+        name := @parameter0: java.lang.String;
+/*3*/
+
+     label1:
+        nop;
+/*3*/
+
+        temp$0 = staticinvoke <java.lang.Class: java.lang.Class forName(java.lang.String)>(name);
+/*3*/
+
+     label2:
+        nop;
+/*3*/
+
+        return temp$0;
+/*3*/
+
+     label3:
+        nop;
+/*3*/
+
+        e := @caughtexception;
+/*3*/
+
+        temp$1 = new java.lang.NoClassDefFoundError;
+/*3*/
+
+        temp$2 = virtualinvoke e.<java.lang.ClassNotFoundException: java.lang.String getMessage()>();
+/*3*/
+
+        specialinvoke temp$1.<java.lang.NoClassDefFoundError: void <init>(java.lang.String)>(temp$2);
+/*3*/
+
+        throw temp$1;
+/*3*/
+
+        catch java.lang.ClassNotFoundException from label1 to label2 with label3;
+    }
+}
